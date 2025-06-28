@@ -130,6 +130,7 @@ $stats = $pdo->query("
         <!-- Main Content -->
         <div class="main-content">
             <div class="header">
+                <button id="sidebarToggle" class="sidebar-toggle"><i class="fas fa-bars"></i></button>
                 <h1>System Settings</h1>
                 <div class="user-info">
                     <span>Welcome, <?php echo htmlspecialchars($_SESSION['admin_username']); ?></span>
